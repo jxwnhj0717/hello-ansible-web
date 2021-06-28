@@ -1,0 +1,16 @@
+POST http://tencent.huangjin:8084/user
+Content-Type: application/json
+
+{
+  "id": 3,
+  "name": "hj3",
+  "age": 18
+}
+
+###
+
+GET http://localhost:8081/user
+Accept: application/json
+
+###
+
